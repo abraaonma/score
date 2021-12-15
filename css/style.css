@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.fundo{
+  background-color: white;
+}
+
+.siga{
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: #0B2F3A;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}
+
+.siga-logo{
+  width: 50px;
+}
+
+.container-center{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.container{
+  margin: 0;
+  width: 400px;
+  padding: 20px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  background-color:#3CC409;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: #82FA58;
+  color:white;
+}
+
+.cad-btn{
+  background-color:#FF8000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  border-radius: 5px;
+}
+.navbar{
+  float: right;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+}
+a:link{
+  text-decoration: none;
+}
+.navbar a{
+  color: gray;
+}
+.navbar a:hover{
+  color: black;
+}
+
+.img{
+  background-position: center;
+  text-align: center;
+  margin: auto 0;
+}
+.img-logo{
+  text-align: center;
+  margin: auto 0;
+  padding: 5px;
+}
+.bemvindo{
+  text-align: center;
+  margin: auto 0;
+  padding: 5px;
+}
+.msg-error{
+  color:red; 
+  font-size:10pt; 
+  padding:10px; 
+  text-align:center; 
+  display:block; 
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  color: black;
+  padding: 20px;
+}
+/*Mudança de tamanho para telas menores*/
+@media screen and (max-width: 600px) {
+
+body{
+  background-color:white;
+}
+.container{
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    height: auto;
+  }
+  
+.copyright{
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  background-color: #f2f2f2;
+}
+}
