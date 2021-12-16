@@ -1,9 +1,2 @@
-Desenvolvimento
-By Abraão Neiver
-Ambiente de testes para orange
-15-12-21
-v.1.2.21
-v - Versão
-1 - Status da versão
-2 - Semestre
-21 - Ano de modificação
+Desenvolvimento By Abraão Neiver Ambiente de testes para orange 15-12-21 v.1.2.21 v - Versão 1 - Status da versão 2 - Semestre 21 - Ano de modificação
+Teste 01
