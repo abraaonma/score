@@ -12,7 +12,7 @@
   <div class="container">
 
     <div class="siga">
-      Orange
+      Laranja Mecânica
     </div>
     <div class="img-logo">
       <img src="img/laranja.png" width="50"></br>

@@ -35,6 +35,8 @@ include_once('connect.php');
             //Inclui o índice de produtividade
             include_once('ip.php');
             echo "<br>";
+
+            include_once('etp.php');
             
             include_once('acionador-frequencia-aluno.php');
             

@@ -43,11 +43,11 @@
             
             $query_pts_ac = $query_pts_score->fetch();
             
-            if($query_pts_ac['acionador_frequencia_aluno'] == 1)
+            if($query_pts_ac['acionador_frequencia_aluno'] == 0)
             {
               //Altera de "0" para "1" o valor do acionador.
               $query_ac = $pdo->prepare("UPDATE score_frequencia SET acionador_frequencia_aluno = :acionador");
-              $query_ac->bindValue(":acionador", '0');
+              $query_ac->bindValue(":acionador", '1');
               $query_ac->execute();
               
               //Insere o valor do score de 0.10pts.

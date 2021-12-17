@@ -18,8 +18,8 @@
 
 if(isset($_POST['login']))
 {    
-    $matricula = $_POST["matricula"];
-    $senha = $_POST["senha"];
+    $matricula = addslashes($_POST["matricula"]);
+    $senha = addslashes($_POST["senha"]);
 
     $query = $pdo->prepare("SELECT id_usuario FROM score_usuario WHERE matricula_usuario = :matricula AND senha_usuario = :senha");
     $query->bindValue(":matricula", $matricula);
