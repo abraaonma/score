@@ -11,7 +11,7 @@
 
         <button type="submit" name="login">Login</button><br>     
         
-        <div class="footer">Todos os direitos reservados - ® 2019-2021</div>    
+        <div class="footer">® 2017-2021</div>    
     </div>
 </form>
 <?php

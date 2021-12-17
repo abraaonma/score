@@ -3,6 +3,12 @@
   padding:0;
 }
 
+p{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
 .fundo{
   background-color: white;
 }
@@ -31,11 +37,10 @@
 
 .container{
   margin: 0;
-  width: 400px;
   padding: 20px;
+  width: 400px;
   line-height: 30px;
   border-radius: 5px;
-  border: 1px solid #ccc;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
@@ -122,16 +127,13 @@ a:link{
 .footer {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 10px;
+  font-size: 12px;
   color: black;
   padding: 20px;
 }
 /*Mudança de tamanho para telas menores*/
 @media screen and (max-width: 600px) {
 
-body{
-  background-color:white;
-}
 .container{
     margin: 30px auto;
     padding: 20px;
@@ -141,9 +143,9 @@ body{
   }
   
 .copyright{
-  text-align: center;
-  font-size: 10px;
-  color: black;
-  background-color: #f2f2f2;
-}
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: #f2f2f2;
+  }
 }

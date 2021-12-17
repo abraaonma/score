@@ -22,27 +22,26 @@ include_once('connect.php');
         
         while($cons = $sql->fetch()) 
         {
-        echo "<p>".$cons['nome_curso']."</p>";
-        
-        echo "<p>".$cons['disciplina_curso']."</p>";
-        
-        echo "<p>Prof. Abraão Azevedo</p>";
-        
-        echo "<p>".$cons['nome_usuario']."</p>";
-        
-        echo "<p>".$cons['matricula_usuario']."</p>";
-        
-        //Inclui o índice de produtividade
-        include_once('ip.php');
-        echo "<br>";
-        
-        include_once('acionador-frequencia-aluno.php');
-        
-        echo '<a href="logout.php"><button>Sair</button></a>';
+            echo "<p>".$cons['nome_curso']."</p>";
+            
+            echo "<p>".$cons['disciplina_curso']."</p>";
+            
+            echo "<p>Prof. Abraão Azevedo</p>";
+            
+            echo "<p>".$cons['nome_usuario']."</p>";
+            
+            echo "<p>".$cons['matricula_usuario']."</p>";
+            
+            //Inclui o índice de produtividade
+            include_once('ip.php');
+            echo "<br>";
+            
+            include_once('acionador-frequencia-aluno.php');
+            
+            echo '<a href="logout.php"><button>Sair</button></a>';
         
         } 
         include_once('footer.php');
     }
-
 
 ?>
