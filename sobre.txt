@@ -1,6 +1,13 @@
 Desenvolvimento By Abraão Neiver Ambiente de testes para orange 15-12-21 v.1.2.21 v - Versão 1 - Status da versão 2 - Semestre 21 - Ano de modificação
 Teste 01
 Teste pi 01
+<<<<<<< HEAD
 Teste pi 02
 Teste pi 03
 Teste pi 04
+=======
+Teste CPU 01
+>>>>>>> 84b0b11db36f5006cc59c3350f8f365b4014a625
+=======
+Teste pi 05
+
