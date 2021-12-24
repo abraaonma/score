@@ -29,7 +29,6 @@ if(isset($_POST['login']))
     if($query->rowCount() > 0)
     {
         session_start();
-
         $dado = $query->fetch();
         $_SESSION['id_usuario'] = $dado['id_usuario'];
         header('Location: score_card.php');
@@ -41,4 +40,5 @@ if(isset($_POST['login']))
 
 }
 ?>
-    <?php include_once("footer.php"); ?> 
+
+    <?php include_once("footer.php"); ?>
