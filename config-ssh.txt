@@ -1,3 +1,11 @@
-ssh-keygen
-eval `ssh-agent`
-ssh-add id_rsa
+Passos para registro de ssh no github:
+
+1. ssh-keygen
+Gera uma chave SSH. 
+
+2. eval `ssh-agent`
+Adiciona um ambiente de desenvolvimento.
+
+3. ssh-add /dir/id_ssh..
+Adiciona a chave ssh criada no ambiente de desenvolvimento.
+Obs.: importante levar a chave para dentro do diretório correspondente.
