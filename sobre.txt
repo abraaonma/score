@@ -11,3 +11,4 @@ Teste CPU 01
 =======
 Teste pi 05
 Teste id_rsa 01
+Teste pi 06
